@@ -30,7 +30,7 @@ for (i in names){
   df[[i]] %>% 
     unique() %>% 
     length() %>% 
-    append(value_count) -> value_count 
+    append(value_count)
 }
 
 value_count
